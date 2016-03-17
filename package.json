@@ -1,0 +1,19 @@
+{
+  "name": "inquirer-nexe-test",
+  "version": "1.0.0",
+  "description": "A test for inquirer nexe compatibility.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nexe": "node_modules/.bin/gulp build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "nexe": "^1.1.0"
+  },
+  "dependencies": {
+    "inquirer": "^0.12.0"
+  }
+}
