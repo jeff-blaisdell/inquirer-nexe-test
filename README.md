@@ -1,13 +1,12 @@
 Nexe breaks inquirer choices widget.
 
-Steps:
-* npm install
-* npm run-script nexe
-* Run ```target\inquirer.exe```
+Steps to reproduce:
 
-Notice the the choices / dropdown menu doesn't work.
+Via Nexe
+* Run ```npm install```
+* Run ```npm run-script nexe``` to generate Nexe executable.  Will output to 'target' directory.
+* Run ```target\inquirer.exe``` - On Windows, choices prompt does not accept user input.
 
-Now run via:
-* ```node index.js```
-
-Notice the choices / dropdown does work.
+Via Node
+* ```node index.js``` Works as expected.
+* ```node .\tmp\nodejs\4.2.3\node-v4.2.3\lib\nexe.js``` Works as expected.
