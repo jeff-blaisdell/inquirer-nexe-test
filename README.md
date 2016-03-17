@@ -1,6 +1,6 @@
-Nexe breaks inquirer choices widget.
+Nexe breaks inquirer choices widget only on Windows.  OS X works as expected.
 
-Steps to reproduce:
+*Steps to reproduce:*
 
 Via Nexe
 * Run ```npm install```
